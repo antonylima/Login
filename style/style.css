@@ -2,9 +2,7 @@
   margin: 2px;
   padding: 0;
 } 
-
 /*@import url('normalize.css');*/
-
 @keyframes grow {
   from {
     height: 1px;
@@ -18,7 +16,6 @@
 body {
   background-image: linear-gradient(to right, rgba(0, 128, 0, 0.7), yellowgreen, rgba(0, 128, 0, 0.7));
 }
-
 
 #maindiv {
   position: absolute;
@@ -75,10 +72,6 @@ legend {
   color: darkblue;
 }
 
-#dados {
-}
-
-
 .dvs{
   width: 100%;
 }
@@ -111,9 +104,6 @@ input {
   flex-flow: column;
   align-items: center;
   }
-#lk{
-}
-
 
 #user,
 #userr {
@@ -121,10 +111,7 @@ input {
   background-repeat: no-repeat;
   background-position: left 3px center;
   background-size: 20px;
-
-
 }
-
 
 #pass,
 #passr {
@@ -148,7 +135,6 @@ button {
 button:hover {
   border: 2px ridge darkblue;
 }
-
 a:link {
   color: darkblue;
 }
