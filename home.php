@@ -1,4 +1,0 @@
-<?php
- echo '<h1 style="background:blue;color:white;text-align:center;position:absolute;top:30%;transform:translateY(-50%);width:100%">Teste de login efetuado com sucesso</h1><br>
-';
-?>

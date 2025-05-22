@@ -4,7 +4,7 @@ function login() {
   var lg = document.getElementById('lg');
   if (user.value !== "" && pass.value !== "") {
     if (user.value == "admin" && pass.value == "admin") {
-      lg.action = "home.php"
+      lg.action = "home.html"
       //alert(123);
     }
     else {
