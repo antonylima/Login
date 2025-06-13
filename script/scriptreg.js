@@ -1,6 +1,5 @@
 const crt = [35, 36, 38, 64];
 const ctr = [false, false, false, false, false];
-
 function signup() {
   let user = document.getElementById('userr');
   let pass = document.getElementById('passr');
@@ -35,5 +34,3 @@ function signup() {
     alert("Fill up the form");
   }
 }
-
-
