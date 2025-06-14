@@ -5,7 +5,6 @@ function login() {
   if (user.value !== "" && pass.value !== "") {
     if (user.value == "admin" && pass.value == "admin") {
       lg.action = "home.html"
-      //alert(123);
     }
     else {
       alert("Wrong data")
