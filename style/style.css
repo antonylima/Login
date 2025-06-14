@@ -8,15 +8,12 @@
     height: 1px;
     width: 1px;
   }
-
   to {
   }
 }
-
 body {
   background-image: linear-gradient(to right, rgba(0, 128, 0, 0.7), yellowgreen, rgba(0, 128, 0, 0.7));
 }
-
 #maindiv {
   position: absolute;
   left: 50%;
