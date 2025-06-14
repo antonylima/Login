@@ -26,15 +26,12 @@ body {
   border-radius: 15px;
   border: groove 1px green;
 }
-
 #maindiv:hover {
   background-color: rgba(255, 255, 0, 0.5);
 }
-
 fieldset {
   border: none;
 }
-
 legend {
   /*top:50%;*/
   position: absolute;
@@ -50,7 +47,6 @@ legend {
   background-size: 110px;
   border-radius: 40px;
 }
-
 #centro {
   width: 100%;
   position: absolute;
@@ -62,24 +58,20 @@ legend {
   align-content:center;
   align-items: center;
 }
-
 #h3 {
   font-variant: small-caps;
   font-size: 30px;
   color: darkblue;
 }
-
 .dvs{
   width: 100%;
 }
-
 label {
   width: 20%;
   font-weight: bold;
   font-size: 20px;
   color: darkblue;
 }
-
 input {
   width: 65%;
   border-radius: 10px;
@@ -90,18 +82,15 @@ input {
   border: 2px groove red;
   text-align: center;
 }
-
 ::placeholder {
   color: yellowgreen;
 }
-
 .divd {
   width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
   }
-
 #user,
 #userr {
   background-image: url("../img/user1.png");
@@ -109,16 +98,13 @@ input {
   background-position: left 3px center;
   background-size: 20px;
 }
-
 #pass,
 #passr {
   background-image: url("../img/chaves.png");
   background-repeat: no-repeat;
   background-position: left 3px center;
   background-size: 20px;
-
 }
-
 button {
   position: relative;
   font-size: 20px;
@@ -128,26 +114,21 @@ button {
   padding: 5px;
   font-weight: bold;
 }
-
 button:hover {
   border: 2px ridge darkblue;
 }
 a:link {
   color: darkblue;
 }
-
 a:visited {
   color: red;
 }
-
 a:hover {
   color: blue;
 }
-
 a:active {
   color: green;
 }
-
 #dev{
   position: fixed;
   bottom: 10px;
