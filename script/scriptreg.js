@@ -1,3 +1,7 @@
+import 'script.js'
+alert(users[0].name)
+
+
 const crt = [35, 36, 38, 64];
 const ctr = [false, false, false, false, false];
 function signup() {

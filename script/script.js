@@ -1,9 +1,13 @@
+const users = [{name:'admin',pass:'admin'}];
+const user = document.getElementById('user');
+const pass = document.getElementById('pass');
+const lg = document.getElementById('lg');
+
 function login() {
-  var user = document.getElementById('user');
-  var pass = document.getElementById('pass');
-  var lg = document.getElementById('lg');
-  if (user.value !== "" && pass.value !== "") {
-    if (user.value == "admin" && pass.value == "admin") {
+
+for(let l in users){
+ if (user.value !== "" && pass.value !== "") {
+    if (user.value === users[l].name && pass.value === users[l].pass) {
       lg.action = "home.html"
     }
     else {
@@ -12,5 +16,6 @@ function login() {
   }
   else {
     alert("Fill up the form");
-  }
-}
+  
+
+}}}
