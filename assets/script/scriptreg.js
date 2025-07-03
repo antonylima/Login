@@ -30,8 +30,6 @@ function signup() {
     }
   }
 }
-
-
 function somar(){
   //alert()
   localStorage.setItem('i',   parseInt(localStorage.getItem('i')) + 1);
@@ -39,5 +37,4 @@ function somar(){
   localStorage.setItem('us'+ i,
     JSON.stringify({name:userr.value,pass:passr.value})
   ) 
-  console.log(i)
 }
