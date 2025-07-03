@@ -20,6 +20,6 @@ function login() {
     alert("Wrong data")
  }
 if(consta === false && campos === false){
-    alert("Wrong data")
+    alert("Fill the form")
  }
 }
