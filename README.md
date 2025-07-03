@@ -8,28 +8,28 @@ Registration Form: New users can register by providing a username and password.
 
 ##### Password Validation:
 
-Minimum length requirement.
+* Minimum length requirement.
 
-Requires at least one uppercase letter.
+* Requires at least one uppercase letter.
 
-Requires at least one lowercase letter.
+* Requires at least one lowercase letter.
 
-Requires at least one number.
+* Requires at least one number.
 
-Requires at least one special character.
+* Requires at least one special character.
 
-Toggle Forms: Easily switch between the login and registration views.
+#### Toggle Forms: Easily switch between the login and registration views.
 
-Client-Side Only: All validation and "authentication" logic is handled directly in the browser using JavaScript. No backend server is involved.
+#### Client-Side Only: All validation and "authentication" logic is handled directly in the browser using JavaScript. No backend server is involved.
 
 ## Technologies Used
-HTML5: For the structure and content of the web pages.
+* HTML5: For the structure and content of the web pages.
 
-CSS3: For styling and layout, making the forms visually appealing and responsive.
+* CSS3: For styling and layout, making the forms visually appealing and responsive.
 
-JavaScript: For all interactive elements, form handling, and password validation
+* JavaScript: For all interactive elements, form handling, and password validation
 
-### Live Demo
+## Live Demo
 
 You can try it directly in your browser by visiting the project's live page:
 
