@@ -31,6 +31,6 @@ JavaScript: For all interactive elements, form handling, and password validation
 
 ### Live Demo
 
-You can try VanCalc directly in your browser by visiting the project's live page:
+You can try it directly in your browser by visiting the project's live page:
 
 [**https://loginner.netlify.app**](https://loginner.netlify.app)
