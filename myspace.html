@@ -8,9 +8,14 @@
 <body style="background: black">
   <h1 id="hum" style="text-align: center; font-size: 3em;color: greenyellow;">WELLCOME!!!</h1>
   <h1 id="user" class="van" style="text-align: center; font-size: 3em;color: rgb(222, 222, 222);"></h1>
+  <script src="assets/script/script.js"></script>
+  <script src="assets/script/scriptreg.js"></script>
+  <script src="assets/script/var.js"></script>
   <script>
-    document.getElementById("user").innerHTML =
-      localStorage.getItem("newuser");
+    let us = JSON.parse(localStorage.getItem(
+      'us' + localStorage.getItem('i')
+    )).name;
+    document.getElementById("user").innerHTML = us
   </script>
 </body>
 </html>

@@ -4,8 +4,8 @@
   <!-- <meta http-equiv="refresh" content="2"> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Login</title>
-  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <title>Index</title>
+  <link href="assets/style/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <div id="maindiv">
@@ -38,6 +38,18 @@
   <span>Developer: </span>
   <a href="https://sulivando.com.br">Vandeveloper</a>
   </div>
-  <script src="script/script.js"></script>
+  <script src="assets/script/script.js"></script>
+  <script src="assets/script/scriptreg.js"></script>
+  <script src="assets/script/var.js"></script>
+  <script>
+    if(!localStorage.getItem("i")){
+      localStorage.setItem('i',0)
+    }
+    for(let k in localStorage){
+      if(localStorage.getItem(k) != null && k != 'i'){
+        users.push(JSON.parse(localStorage.getItem(k)))
+      }
+    }
+  </script>
 </body>
 </html>
