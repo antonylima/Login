@@ -38,3 +38,11 @@ function somar(){
     JSON.stringify({name:userr.value,pass:passr.value})
   ) 
 }
+
+showr.onclick = () => {
+  if (passr.type === "password") {
+    passr.type = "text"
+  }else{
+    passr.type = "password"
+  }
+}

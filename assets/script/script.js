@@ -23,3 +23,12 @@ if(consta === false && campos === false){
     alert("Fill up the form")
  }
 }
+
+
+show.onclick = () => {
+  if (pass.type === "password") {
+    pass.type = "text"
+  }else{
+    pass.type = "password"
+  }
+}

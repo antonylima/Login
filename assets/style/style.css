@@ -144,3 +144,12 @@ a:active {
   top: 3%;
   right: 5%;
 }
+
+#show, #showr{
+  position: relative;
+  top: 0;
+  background-color: aliceblue;
+  padding: 0.5%;
+  height: fit-content;
+  box-sizing: border-box;
+}
