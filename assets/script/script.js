@@ -8,7 +8,7 @@ function login() {
       consta = true
     }
   }else{
-    alert("Fill the form")
+    //alert("Fill the form")
   }
  }
  if(consta === true){
@@ -17,6 +17,9 @@ function login() {
   lg.action = "home.html"
  }
  if(consta === false && campos === true){
+    alert("Wrong data")
+ }
+if(consta === false && campos === false){
     alert("Wrong data")
  }
 }
