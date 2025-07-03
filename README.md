@@ -33,4 +33,4 @@ JavaScript: For all interactive elements, form handling, and password validation
 
 You can try VanCalc directly in your browser by visiting the project's live page:
 
-[**https://calculo.wuaze.com**](https://loginner.netlify.app)
+[**https://loginner.netlify.app**](https://loginner.netlify.app)
