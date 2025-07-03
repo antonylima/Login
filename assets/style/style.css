@@ -137,3 +137,10 @@ a:active {
 #dev a{
   text-decoration: none;
 }
+
+
+#name{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}

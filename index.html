@@ -46,7 +46,7 @@
       localStorage.setItem('i',0)
     }
     for(let k in localStorage){
-      if(localStorage.getItem(k) != null && k != 'i'){
+      if(localStorage.getItem(k) != null && k != 'i' && k != 'login'){
         users.push(JSON.parse(localStorage.getItem(k)))
       }
     }

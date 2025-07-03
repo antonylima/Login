@@ -9,6 +9,7 @@ function login() {
  }
  if(consta === true){
   //alert("ok")
+  localStorage.setItem('login', user.value)
   lg.action = "home.html"
  }
  if(consta === false){
