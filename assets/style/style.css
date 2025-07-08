@@ -153,3 +153,12 @@ a:active {
   height: fit-content;
   box-sizing: border-box;
 }
+
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+
+  legend {
+ display: none;
+}
+
+  
+}
